@@ -3,6 +3,7 @@
         <p>
             favoris
         </p>
+        <p>{{this.$store.getters.favorite}}</p>
     </div>
 </template>
 
